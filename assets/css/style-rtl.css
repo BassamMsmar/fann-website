@@ -584,6 +584,15 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  color: #fff;
+}
+.section-title  {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #fff;
 }
 
 .section-title h2::after {
@@ -640,7 +649,7 @@ section {
 }
 
 .about .content .btn-learn-more {
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1px;
@@ -720,7 +729,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/cta-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/IMG_4259.JPG") fixed center center;
   background-size: cover;
   padding: 120px 0;
 }
@@ -743,7 +752,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
@@ -841,7 +850,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  background: url("../img/counts-bg.jpg") center center no-repeat;
+  background: url("/img/IMG_4252.JPG") center center no-repeat;
   background-size: cover;
   padding: 80px 0 60px 0;
   position: relative;
@@ -850,7 +859,7 @@ section {
 .counts::before {
   content: "";
   position: absolute;
-  background: rgba(17, 17, 17, 0.9);
+  background: rgba(17, 17, 17, 0.521);
   left: 0;
   right: 0;
   top: 0;
@@ -878,7 +887,7 @@ section {
 .counts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 14px;
   color: #fff;
 }
@@ -1058,8 +1067,22 @@ section {
 /*--------------------------------------------------------------
 # Pricing
 --------------------------------------------------------------*/
+
 .pricing {
-  background-color: #f9f9f9;
+  background: url("/img/IMG_4252.JPG") center center no-repeat;
+  background-size: cover;
+  padding: 80px 0 60px 0;
+  position: relative;
+}
+
+.pricing::before {
+  content: "";
+  position: absolute;
+  background: rgba(17, 17, 17, 0.521);
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .pricing .box {
@@ -1068,7 +1091,6 @@ section {
   border-radius: 8px;
   position: relative;
   overflow: hidden;
-  background: #fefefe;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.1);
 }
 
@@ -1078,7 +1100,7 @@ section {
   margin-top: 15px;
   font-size: 18px;
   font-weight: 600;
-  color: #282828;
+  color: #fff;
 }
 
 .pricing .box h4 {
@@ -1096,7 +1118,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: #fff;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1104,7 +1126,7 @@ section {
 .pricing .box ul {
   padding: 20px 0;
   list-style: none;
-  color: #282828;
+  color: #fff;
   text-align: center;
   line-height: 20px;
   font-size: 14px;
@@ -1138,7 +1160,7 @@ section {
   color: #f2682f;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Raleway", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1232,7 +1254,7 @@ section {
 .faq .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -1472,7 +1494,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0f0f0f;
+  
+  background: #0f0f0f8f;
   color: #fff;
   font-size: 14px;
   text-align: center;
@@ -1484,7 +1507,7 @@ section {
   font-weight: 700;
   color: #fff;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: "Almarai", sans-serif;
   padding: 0;
   margin: 0 0 15px 0;
 }
@@ -1536,4 +1559,8 @@ section {
 
 #footer .credits a:hover {
   color: #f2682f;
+}
+
+#pargraph {
+  color: #c9c5c5 !important;
 }
