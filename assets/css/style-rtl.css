@@ -584,7 +584,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fff;
+  color:  #777777;
 }
 .section-title  {
   font-size: 32px;
@@ -592,7 +592,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #fff;
+  color: #777777;
 }
 
 .section-title h2::after {
